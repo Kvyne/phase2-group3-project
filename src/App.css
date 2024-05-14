@@ -1,0 +1,68 @@
+body{
+
+  color: #ffffff;
+background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtbWlzYzYtdGVkMzEwNS10ZWRkeS5qcGc.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background-color: rgba(125, 127, 129, 0.901);
+}
+
+.movie-container {
+  position: relative;
+  width: 150px; 
+  transition: transform 0.3s ease-in-out; 
+
+
+}
+
+.movie-container:hover {
+  transform: scale(1.05); 
+  z-index: 1; 
+  box-shadow:0px 4px 7px rgba(241, 35, 8, 0.952); 
+  animation: glow 1.5s infinite alternate;
+}
+
+.movie-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.add-to-favourites {
+  color: white;}
+
+  .remove-from-favourites {
+    color: white; 
+  }
+
+.movie-app > .row{
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+movie-app > .row > .movie-item {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+
